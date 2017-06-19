@@ -1,16 +1,17 @@
 {
   "name": "phase-2-challenge",
   "version": "1.0.0",
-  "description": "Phase 2 Challenge For Learners Guild Sorting ",
-  "main": "functions.js",
+  "description": "Phase 2 Challenge For Learners Guild Sorting",
+  "main": "tests.js",
   "dependencies": {
     "chai": "^4.0.2"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "npm start"
+    "test": "mocha ./tests/weekday-test.js"
   },
   "repository": {
     "type": "git",
