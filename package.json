@@ -1,0 +1,25 @@
+{
+  "name": "phase-2-challenge",
+  "version": "1.0.0",
+  "description": "Phase 2 Challenge For Learners Guild Sorting ",
+  "main": "functions.js",
+  "dependencies": {
+    "chai": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/phase-2-challenge.git"
+  },
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/phase-2-challenge/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/phase-2-challenge#readme"
+}
