@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    /*background-image: url(' bi-background-frame.png ');
+    background-attachment: fixed;*/
+    background-size: 100% auto;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    font-family: Dosis, sans-serif;
+}
+
+.blended_grid {
+    display: block;
+    width: 900px;
+    overflow: auto;
+    margin: 30px auto 0 auto;
+    border: 1px solid black;
+}
+
+.pageHeader1 {
+    float: left;
+    clear: none;
+    height: 50px;
+    width: inherit;
+    padding-left: 2px;
+    border: 1px solid black;
+}
+
+.pageHeader2 {
+    float: left;
+    clear: none;
+    height: 50px;
+    width: inherit;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+
+.cart {
+    float: right;
+    clear: none;
+    height: 50px;
+    width: 85px;
+    border: 1px solid black;
+}
+
+
+.pageLeftMenu {
+    float: left;
+    clear: none;
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3px;
+}
+
+.pageContent {
+    float: left;
+    clear: none;
+    height: 500px;
+    width: 79.55%;
+    border: 1px solid black;
+}
+
+.pageFooter {
+    float: left;
+    clear: none;
+    height: 50px;
+    width: 900px;
+    border: 1px solid black;
+}
+
+
+/**body {
+    background-color: #FAFAFA;
+    font-family: 'Dosis', sans-serif;
+    color:#333
+}
+
+p {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3px;
+}
+
+li {
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.header {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    border: 1px solid black;
+    /*margin-bottom: 3px;*/
+
+
+/*}
+.navcol {
+    height: 100%;
+}
+, navigation {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    border: 1px solid black;
+}
+.content {
+    float: left;
+    width: 30%;
+}
+.leftcolumn {
+    width: 150px;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
+.footer {
+    height: 40px;
+    width: 1000px;
+    clear: both;
+    border-top: 1px solid black;
+}*/
