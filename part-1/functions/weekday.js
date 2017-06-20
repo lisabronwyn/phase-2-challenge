@@ -1,10 +1,15 @@
 // Show a weekday
 //
-// Write a function weekday(date) to find the weekday for a given Date object, returing either 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
+// Write a function weekday(date) to find the weekday for a given Date object, returning either 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
 
-const date = new Date(2017, 5, 19)
-let day = date.getDay()
-let name = ["Sun","Mon","Tues","Wed","Thu","Fri","Sat"][day]
+module.exports = function weekday(date) {
+    let weekday[0] = "Sunday";
+    let weekday[1] = "Monday";
+    let weekday[2] = "Tuesday";
+    let weekday[3] = "Wednesday";
+    let weekday[4] = "Thursday";
+    let weekday[5] = "Friday";
+    let weekday[6] = "Saturday";
 
-weekday(date) // returns "Mon"
-weekday(new Date(2017, 5, 15))
+    return date
+}
