@@ -11,7 +11,7 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha ./tests/weekday-test.js"
+    "test": "mocha part-1/tests"
   },
   "repository": {
     "type": "git",

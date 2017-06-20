@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-import weekday from './functions'
+const weekday = require('../functions/weekday');
 
 describe('weekday', () => {
 
@@ -12,11 +12,6 @@ describe('weekday', () => {
         expect(date).to.be.a('string')
     })
 
-    it('returns "Invalid Input" when given a null element'), () => {
-        let date = weekday(new Date)(null))
-        expect(null).to.equal(null);
-    })
-
     it('returns "Thursday" when given a new Date(2017, 5, 15)', () => {
         let date = weekday(new Date(2017, 5, 15))
         expect(date).to.deep.equal('Thu')
@@ -26,4 +21,4 @@ describe('weekday', () => {
         let date = weekday(new Date(2017, 5, 19))
         expect(date).to.deep.equal('Mon')
     })
-}
+})
