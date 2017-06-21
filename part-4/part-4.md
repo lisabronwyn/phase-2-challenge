@@ -29,6 +29,7 @@ What keyboard shortcut do you use to split the screen in your terminal?
 A: command-d
 
 When a terminal command completes, how can you tell if it was successful or not?
+A: Obtain the exit code of the command from the shell variable $? 
 
 What does your ~/.gitconfig have in it? (paste the whole file here)
 A: git config --list
@@ -62,9 +63,14 @@ Lets say you have the following file structure
         ├── README.md
         └── package.json
 And you were in the linkedin-for-dancers folder. What command would you use to change folders to the pinterest-for-dogs folder?
+A: cd ..
 
 What keyboard shortcut do you use, in your editor, when you want to open a specific file?
 
+A: command-O
+
 What files or folders do you want all git repositories to ignore?
+A: Whatever is in the .gitignore file
 
 What is the main difference between == and === in JavaScript?
+A: They are equality operators and == means loose equals while === means strict equals. Strict equals means that the values must also be equal in type.

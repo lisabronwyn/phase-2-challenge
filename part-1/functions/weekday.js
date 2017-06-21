@@ -2,7 +2,7 @@
 //
 // Write a function weekday(date) to find the weekday for a given Date object, returning either 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
 
-module.exports = function weekday(date) {
+module.exports = weekday(date) => {
     let weekday[0] = "Sunday";
     let weekday[1] = "Monday";
     let weekday[2] = "Tuesday";
