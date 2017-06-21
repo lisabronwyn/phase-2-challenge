@@ -1,7 +1,4 @@
-
 body {
-    /*background-image: url(' bi-background-frame.png ');
-    background-attachment: fixed;*/
     background-size: 100% auto;
     background-color: #FAFAFA;
     border: 1px solid black;
@@ -54,7 +51,6 @@ h1 {
     font-size: 18px;
 }
 
-
 .pageLeftMenu {
     float: left;
     clear: none;
@@ -89,11 +85,10 @@ li>a {
     text-decoration: none;
 }
 
-
 ul>a {
     background: #CCCCCC;
     text-decoration: none;
-    }
+}
 
 .italic {
     font-style: italic;
@@ -109,75 +104,11 @@ ul>a {
 
 .container {
     width: 100%;
-
 }
 
 .pageFooter {
-    float: left;
-    clear: none;
-    height: 50px;
+    height: 40px;
     width: 900px;
-    border: 1px solid black;
+    margin-left: 267px;
+    border: 1.5px solid black;
 }
-
-
-/**body {
-    background-color: #FAFAFA;
-    font-family: 'Dosis', sans-serif;
-    color:#333
-}
-
-p {
-    padding: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-left: 3px;
-}
-
-li {
-
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-    border: 1px solid black;
-}
-
-.header {
-    float: left;
-    height: 40px;
-    width: 1000px;
-    border: 1px solid black;
-    /*margin-bottom: 3px;*/
-
-
-/*}
-.navcol {
-    height: 100%;
-}
-, navigation {
-    float: left;
-    height: 40px;
-    width: 1000px;
-    border: 1px solid black;
-}
-.content {
-    float: left;
-    width: 30%;
-}
-.leftcolumn {
-    width: 150px;
-    height: 100%;
-    float: left;
-    border: 1px solid black;
-}
-.footer {
-    height: 40px;
-    width: 1000px;
-    clear: both;
-    border-top: 1px solid black;
-}*/
